@@ -1,0 +1,250 @@
+---
+soma:
+  at: 2014-08-12 17:29:31.987904896 +06:00
+  channels:
+  - name: DEF CON Radio
+    desc: Music for Hacking. Live from DEF CON 22 in Las Vegas.
+    id: events
+    img-file: defcon120.png
+    img-url: http://somafm.com/img/defcon120.png
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:6200
+  - name: Groove Salad
+    desc: A nicely chilled plate of ambient/downtempo beats and grooves.
+    id: groovesalad
+    img-file: groovesalad120.png
+    img-url: http://somafm.com/img/groovesalad120.png
+    sources:
+      mp3:
+      - http://uwstream1.somafm.com:80
+  - name: Lush
+    desc: Sensuous and mellow vocals, mostly female, with an electronic influence.
+    id: lush
+    img-file: lush-x120.jpg
+    img-url: http://somafm.com/img/lush-x120.jpg
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:8800
+  - name: Space Station Soma
+    desc: Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.
+    id: spacestation
+    img-file: sss.jpg
+    img-url: http://somafm.com/img/sss.jpg
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:8000
+  - name: The Trip
+    desc: Progressive house / trance. Tip top tunes.
+    id: thetrip
+    img-file: thetrip120.jpg
+    img-url: http://somafm.com/img/thetrip120.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:2504
+  - name: cliqhop idm
+    desc: Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.
+    id: cliqhop
+    img-file: cliqhop120.png
+    img-url: http://somafm.com/img/cliqhop120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8062
+  - name: Dub Step Beyond
+    desc: Dubstep, Dub and Deep Bass. May damage speakers at high volume.
+    id: dubstep
+    img-file: dubstep120.png
+    img-url: http://somafm.com/img/dubstep120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:8400
+  - name: Mission Control
+    desc: Celebrating NASA and Space Explorers everywhere.
+    id: missioncontrol
+    img-file: missioncontrol120.jpg
+    img-url: http://somafm.com/img/missioncontrol120.jpg
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:2020
+  - name: Indie Pop Rocks!
+    desc: New and classic favorite indie pop tracks.
+    id: indiepop
+    img-file: indychick.jpg
+    img-url: http://somafm.com/img/indychick.jpg
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:8090
+  - name: Folk Forward
+    desc: Indie Folk, Alt-folk and the occasional folk classics.
+    id: folkfwd
+    img-file: folkfwd120.jpg
+    img-url: http://somafm.com/img/folkfwd120.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:7400
+  - name: BAGeL Radio
+    desc: What alternative rock radio should sound like.
+    id: bagel
+    img-file: bagel120.png
+    img-url: http://somafm.com/img/bagel120.png
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:9090
+  - name: Digitalis
+    desc: Digitally affected analog rock to calm the agitated heart.
+    id: digitalis
+    img-file: digitalis120.png
+    img-url: http://somafm.com/img/digitalis120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8900
+  - name: Sonic Universe
+    desc: Transcending the world of jazz with eclectic, avant-garde takes on tradition.
+    id: sonicuniverse
+    img-file: sonicuniverse120.jpg
+    img-url: http://somafm.com/img/sonicuniverse120.jpg
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:8600
+  - name: Secret Agent
+    desc: The soundtrack for your stylish, mysterious, dangerous life. For Spies and
+      PIs too!
+    id: secretagent
+    img-file: secretagent120.jpg
+    img-url: http://somafm.com/img/secretagent120.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8002
+  - name: Suburbs of Goa
+    desc: Desi-influenced Asian world beats and beyond.
+    id: suburbsofgoa
+    img-file: sog120.jpg
+    img-url: http://somafm.com/img/sog120.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8850
+  - name: Earwaves
+    desc: Spanning the history of electronic and experimental music from the early
+      pioneers to the latest innovators.
+    id: earwaves
+    img-file: earwaves120.jpg
+    img-url: http://somafm.com/img/earwaves120.jpg
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:5100
+  - name: Boot Liquor
+    desc: Americana Roots music for Cowhands, Cowpokes and Cowtippers
+    id: bootliquor
+    img-file: bootliquor120.jpg
+    img-url: http://somafm.com/img/bootliquor120.jpg
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:9004
+  - name: Covers
+    desc: Just covers. Songs you know by artists you don't. We've got you covered.
+    id: covers
+    img-file: covers120.jpg
+    img-url: http://somafm.com/img/covers120.jpg
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:8700
+  - name: Underground 80s
+    desc: Early 80s UK Synthpop and a bit of New Wave.
+    id: u80s
+    img-file: u80s-120.png
+    img-url: http://somafm.com/img/u80s-120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8880
+  - name: Illinois Street Lounge
+    desc: Classic bachelor pad, playful exotica and vintage music of tomorrow.
+    id: illstreet
+    img-file: illstreet.jpg
+    img-url: http://somafm.com/img/illstreet.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8500
+  - name: Deep Space One
+    desc: Deep ambient electronic, experimental and space music. A soundtrack for
+      inner and outer space exploration.
+    id: deepspaceone
+    img-file: deepspaceone120.gif
+    img-url: http://somafm.com/img/deepspaceone120.gif
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:2800
+  - name: Drone Zone
+    desc: Served best chilled, safe with most medications. Atmospheric textures with
+      minimal beats.
+    id: dronezone
+    img-file: dronezone120.jpg
+    img-url: http://somafm.com/img/dronezone120.jpg
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:80
+  - name: PopTron
+    desc: Electropop and indie dance rock with sparkle and pop.
+    id: poptron
+    img-file: poptron120.png
+    img-url: http://somafm.com/img/poptron120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:2200
+  - name: Seven Inch Soul
+    desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
+    id: 7soul
+    img-file: 7soul120.png
+    img-url: http://somafm.com/img/7soul120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:7770
+  - name: Beat Blender
+    desc: A late night blend of deep-house and downtempo chill.
+    id: beatblender
+    img-file: blender120.png
+    img-url: http://somafm.com/img/blender120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8388
+  - name: Doomed
+    desc: Dark industrial/ambient music for tortured souls.
+    id: doomed
+    img-file: doomed120.png
+    img-url: http://somafm.com/img/doomed120.png
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8300
+  - name: Black Rock FM
+    desc: From the Playa to the world, for the 2013 Burning Man festival.
+    id: brfm
+    img-file: 1023brc.jpg
+    img-url: http://somafm.com/img/1023brc.jpg
+    sources:
+      mp3:
+      - http://xstream1.somafm.com:8040
+  - name: SF 10-33
+    desc: Ambient music mixed with the sounds of San Francisco public safety radio
+      traffic.
+    id: sf1033
+    img-file: sf1033120.png
+    img-url: http://somafm.com/img/sf1033120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:2040
+  - name: Iceland Airwaves
+    desc: Music from bands who will be performing at Iceland Airwaves [explicit]
+    id: airwaves
+    img-file: airwaves120.png
+    img-url: http://somafm.com/img/airwaves120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:5400
+  - name: South by Soma
+    desc: Music from bands who will be performing at SXSW, one of the biggest and
+      best music festivals in the world. [explicit]
+    id: sxfm
+    img-file: sxfm120.png
+    img-url: http://somafm.com/img/sxfm120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:5500

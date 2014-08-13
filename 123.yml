@@ -1,0 +1,12 @@
+---
+soma:
+  at: 2014-07-08 14:45:53.380470591 +06:00
+  channels:
+  - name: Seven Inch Soul
+    desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
+    id: 7soul
+    img: 7soul120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:7770
+      - http://uwstream3.somafm.com:7770
