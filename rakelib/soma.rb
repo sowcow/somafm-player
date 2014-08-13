@@ -17,6 +17,9 @@ class Soma
         [ x['img-url'], x['img-file'] ]
       }
     end
+    def hash.channels
+      self['soma']['channels']
+    end
     hash
   end
 end
