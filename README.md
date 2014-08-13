@@ -38,3 +38,5 @@ main.slim -------------------/
 - to inline stations images so app is one file?
   I guess no - cuz if it uses git pages and anyway is remote-dependent
   as radio player, it can has any strucutre...
+
+- images - gitignore?
