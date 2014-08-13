@@ -1,0 +1,10 @@
+require_relative '../soma' # not so complex yet
+require_relative 'image'   # to use $: or rake params
+
+
+task :default do
+  soma = Soma.load
+  soma.images.each { |url, file|
+    Image.download url, file
+  }
+end

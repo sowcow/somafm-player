@@ -1,7 +1,7 @@
-require_relative 'soma'
-require_relative 'page'
+require_relative '../soma'
+require_relative '../page'
 
-task :audio_sources do
+task :default do
   soma = Soma.load
 
   soma['soma']['channels'].map! do |channel|

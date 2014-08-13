@@ -1,0 +1,10 @@
+require 'opal'
+require_relative '../paths'
+
+task :default do
+  Opal::Processor.source_map_enabled = false
+  env = Opal::Environment.new
+  env.append_path Paths.opal_dir
+
+  File.write Paths.jsfile, env['app'].to_s
+end

@@ -1,13 +1,19 @@
 require 'slim'
 require 'sass'
-require_relative 'soma'
+require_relative '../soma'
+require_relative '../bags'
 
-task :html => :opal do
+task :default => :opal do
   soma = Soma.load
   html = html_compile channels: soma.channels
-  File.write 'public/index.html', html
+  File.write Paths.html_file, html
   # no need for constant in tasks I guess
 end
+
+task :opal do
+  bags :compile_opal
+end
+
 
 def html_compile hash
   Slim::Template.new { SLIM_TEMPLATE }.render \
@@ -20,7 +26,7 @@ html lang='en'
   head
     title soma-fm
     meta charset='utf-8'
-    script href='app.js'
+    script href=Paths.jsfile
     sass:
       img
         float: left

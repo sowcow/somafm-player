@@ -1,7 +1,7 @@
-require_relative 'soma'
+require_relative '../soma'
 require_relative 'channels'
 
-task :channels do
+task :default do
   channels = Channels.scrap
   soma = {
     'soma' => {

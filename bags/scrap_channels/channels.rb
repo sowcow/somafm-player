@@ -1,5 +1,4 @@
-require_relative 'soma'
-require_relative 'page'
+require_relative '../page'
 
 class Channels
   URL = 'http://somafm.com'

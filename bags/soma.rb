@@ -1,14 +1,15 @@
+require_relative 'paths'
 require 'yaml'
 
-class Soma
-  FILE = 'channels.yml'
+class Soma # module?
+  extend Paths
 
   def self.load
-    wrap YAML.load_file FILE
+    wrap YAML.load_file channels_file
   end
 
   def self.save soma
-    File.write FILE, YAML.dump(soma)
+    File.write channels_file, YAML.dump(soma)
   end
 
   def self.wrap hash
