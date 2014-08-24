@@ -1,6 +1,6 @@
 # soma-fm player
 
-soma fm radio player using html5
+soma-fm radio player using html5
 
 ## how it builds
 
@@ -18,11 +18,11 @@ template --------------------/
 ## todo
 
 - :white_check_mark: plays soma fm
-- :white_check_mark: opal.rb too
+- :white_check_mark: opal.rb
 - :white_circle: no current-track polling - just on hover through android api
-- :white_circle: IHover.css is cool
+- :white_circle: IHover.css
 
-## not todo yet
+## not todo
 
 - atom-shell
 - ember
