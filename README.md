@@ -1,4 +1,4 @@
-# soma-atom
+# somafm-player
 
 soma fm radio player using html5
 
