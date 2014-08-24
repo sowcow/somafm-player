@@ -22,7 +22,7 @@ template --------------------/
 - :white_circle: no current-track polling - just on hover through android api
 - :white_circle: IHover.css
 
-## not todo
+## not todo here
 
 - atom-shell
 - ember
