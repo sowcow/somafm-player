@@ -6,11 +6,13 @@ soma fm radio player using html5
 
 `rake full_update` # invokes task from bags/
 
+```
 http://soma.fm -------> public/images/...
         |
         \---> channels.yml --\
                               =----> public/index.html
 template --------------------/
+```
 
 
 ## todo
