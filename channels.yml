@@ -1,15 +1,23 @@
 ---
 soma:
-  at: 2014-08-13 19:26:07.963188649 +06:00
+  at: 2014-08-24 12:58:07.329948496 +06:00
   channels:
-  - name: DEF CON Radio
-    desc: Music for Hacking. Live from DEF CON 22 in Las Vegas.
-    id: events
-    img-file: defcon120.png
-    img-url: http://somafm.com/img/defcon120.png
+  - name: Black Rock FM
+    desc: From the Playa to the world, for the 2014 Burning Man festival.
+    id: brfm
+    img-file: 1023brc.jpg
+    img-url: http://somafm.com/img/1023brc.jpg
     sources:
       mp3:
-      - http://uwstream3.somafm.com:6200
+      - http://xstream1.somafm.com:8040
+  - name: Seven Inch Soul
+    desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
+    id: 7soul
+    img-file: 7soul120.png
+    img-url: http://somafm.com/img/7soul120.png
+    sources:
+      mp3:
+      - http://uwstream2.somafm.com:7770
   - name: Groove Salad
     desc: A nicely chilled plate of ambient/downtempo beats and grooves.
     id: groovesalad
@@ -34,6 +42,14 @@ soma:
     sources:
       mp3:
       - http://uwstream3.somafm.com:8000
+  - name: DEF CON Radio
+    desc: Music for Hacking. Live from DEF CON 22 in Las Vegas.
+    id: events
+    img-file: defcon120.png
+    img-url: http://somafm.com/img/defcon120.png
+    sources:
+      mp3:
+      - http://uwstream3.somafm.com:6200
   - name: The Trip
     desc: Progressive house / trance. Tip top tunes.
     id: thetrip
@@ -190,14 +206,6 @@ soma:
     sources:
       mp3:
       - http://xstream1.somafm.com:2200
-  - name: Seven Inch Soul
-    desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
-    id: 7soul
-    img-file: 7soul120.png
-    img-url: http://somafm.com/img/7soul120.png
-    sources:
-      mp3:
-      - http://uwstream2.somafm.com:7770
   - name: Beat Blender
     desc: A late night blend of deep-house and downtempo chill.
     id: beatblender
@@ -214,14 +222,6 @@ soma:
     sources:
       mp3:
       - http://xstream1.somafm.com:8300
-  - name: Black Rock FM
-    desc: From the Playa to the world, for the 2013 Burning Man festival.
-    id: brfm
-    img-file: 1023brc.jpg
-    img-url: http://somafm.com/img/1023brc.jpg
-    sources:
-      mp3:
-      - http://xstream1.somafm.com:8040
   - name: SF 10-33
     desc: Ambient music mixed with the sounds of San Francisco public safety radio
       traffic.

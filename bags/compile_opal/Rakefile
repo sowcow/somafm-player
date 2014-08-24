@@ -1,8 +1,10 @@
-require 'opal'
+require 'opal-jquery'
+#require 'opal'
+#require 'opal/browser'
 require_relative '../paths'
 
 task :default do
-  Opal::Processor.source_map_enabled = false
+  Opal::Processor.source_map_enabled = true #false
   env = Opal::Environment.new
   env.append_path Paths.opal_dir
 

@@ -20,20 +20,41 @@ def html_compile hash
     Scope.new hash
 end
 
+# without constant slim does not see
+#module HTML
+#  module_function
+module Kernel
+  def js_path
+    Paths.jsfile.relative_path_from(Paths.html_file.parent)
+  end
+
+  # ...
+  def channels_json
+    require 'yaml' # bad?
+    require 'json' # -||-
+    JSON.dump YAML.load File.read Paths.channels_file
+  end
+end
+
+
 SLIM_TEMPLATE = <<slim
 doctype 5
 html lang='en'
   head
     title soma-fm
     meta charset='utf-8'
-    script href=Paths.jsfile
     sass:
       img
         float: left
   body
     - channels.each do |channel|
-      /div = channel.name.to_s
-      img src="images/\#{channel.send('img-file')}"
+      .channel x-id=channel.id
+        /div = channel.name.to_s
+        img src="images/\#{channel.send('img-file')}"
+    script
+      == "window.Channels = \#{channels_json}\\n"
+      == "Channels = Channels.soma.channels"
+    script src=js_path
 slim
 
 # nested hashes get individual methods for fetching
