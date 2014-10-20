@@ -1,0 +1,9 @@
+---
+name: DEF CON Radio
+desc: Music for Hacking. Live from DEF CON 22 in Las Vegas.
+id: events
+img-file: defcon120.png
+img-url: http://somafm.com/img/defcon120.png
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:6200

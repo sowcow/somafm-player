@@ -1,0 +1,9 @@
+---
+name: SF 10-33
+desc: Ambient music mixed with the sounds of San Francisco public safety radio traffic.
+id: sf1033
+img-file: sf1033120.png
+img-url: http://somafm.com/img/sf1033120.png
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:2040

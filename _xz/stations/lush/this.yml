@@ -1,0 +1,9 @@
+---
+name: Lush
+desc: Sensuous and mellow vocals, mostly female, with an electronic influence.
+id: lush
+img-file: lush-x120.jpg
+img-url: http://somafm.com/img/lush-x120.jpg
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:8800

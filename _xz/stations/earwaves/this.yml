@@ -1,0 +1,10 @@
+---
+name: Earwaves
+desc: Spanning the history of electronic and experimental music from the early pioneers
+  to the latest innovators.
+id: earwaves
+img-file: earwaves120.jpg
+img-url: http://somafm.com/img/earwaves120.jpg
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:5100

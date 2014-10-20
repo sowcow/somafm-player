@@ -1,0 +1,10 @@
+---
+name: Deep Space One
+desc: Deep ambient electronic, experimental and space music. A soundtrack for inner
+  and outer space exploration.
+id: deepspaceone
+img-file: deepspaceone120.gif
+img-url: http://somafm.com/img/deepspaceone120.gif
+sources:
+  mp3:
+  - http://xstream1.somafm.com:2800

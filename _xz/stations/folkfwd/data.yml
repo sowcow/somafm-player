@@ -1,0 +1,9 @@
+---
+name: Folk Forward
+desc: Indie Folk, Alt-folk and the occasional folk classics.
+id: folkfwd
+img-file: folkfwd120.jpg
+img-url: http://somafm.com/img/folkfwd120.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:7400

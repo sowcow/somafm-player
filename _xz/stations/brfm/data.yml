@@ -1,0 +1,9 @@
+---
+name: Black Rock FM
+desc: From the Playa to the world, for the 2014 Burning Man festival.
+id: brfm
+img-file: 1023brc.jpg
+img-url: http://somafm.com/img/1023brc.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8040

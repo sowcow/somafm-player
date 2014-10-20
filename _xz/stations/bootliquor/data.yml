@@ -1,0 +1,9 @@
+---
+name: Boot Liquor
+desc: Americana Roots music for Cowhands, Cowpokes and Cowtippers
+id: bootliquor
+img-file: bootliquor120.jpg
+img-url: http://somafm.com/img/bootliquor120.jpg
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:9004

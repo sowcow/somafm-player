@@ -1,0 +1,9 @@
+---
+name: BAGeL Radio
+desc: What alternative rock radio should sound like.
+id: bagel
+img-file: bagel120.png
+img-url: http://somafm.com/img/bagel120.png
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:9090

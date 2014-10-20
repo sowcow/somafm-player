@@ -1,0 +1,9 @@
+---
+name: Underground 80s
+desc: Early 80s UK Synthpop and a bit of New Wave.
+id: u80s
+img-file: u80s-120.png
+img-url: http://somafm.com/img/u80s-120.png
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8880

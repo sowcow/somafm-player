@@ -1,0 +1,27 @@
+require 'yaml'
+
+task :default => :old_to_new
+
+task :old_to_new do
+  data = YAML.load_file 'channels.yml'
+
+  #rm_rf 'stations'
+  mkpath 'stations'
+
+  chdir 'stations' do
+    data['soma']['channels'].each { |channel|
+      id = channel['id']
+      mkpath id
+      chdir id do
+        File.write 'data.yml', YAML.dump(channel)
+        img_file = channel['img-file']
+        img = File.read "../../images/#{img_file}"
+        File.write img_file, img
+        # File.write 'view.yml', YAML.dump(view)
+        # view or *.yaml may be used to alter the
+        # generated data...
+      end
+    }
+  end
+end
+

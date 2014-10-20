@@ -1,0 +1,9 @@
+---
+name: PopTron
+desc: Electropop and indie dance rock with sparkle and pop.
+id: poptron
+img-file: poptron120.png
+img-url: http://somafm.com/img/poptron120.png
+sources:
+  mp3:
+  - http://xstream1.somafm.com:2200

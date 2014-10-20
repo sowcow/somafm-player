@@ -1,29 +1,15 @@
-# soma-fm player
+# scope
 
-soma-fm radio player using html5
+- radio player for modern non-mobile browser
+- right click to play
 
-## how it builds
-
-`rake full_update` # invokes task from bags/
-
-```
-http://soma.fm -------> public/images/...
-        |
-        \---> channels.yml --\
-                              =----> public/index.html
-template --------------------/
-```
+- d3
+- slim/sass/coffee-script + ruby tasks
 
 
-## todo
+# todo
 
-- :white_check_mark: plays soma fm
-- :white_check_mark: opal.rb
-- :white_circle: no current-track polling - just on hover through android api
-- :white_circle: IHover.css
-
-## not todo here
-
-- atom-shell
-- ember
-- gem
+- to make sane listen.rb instead of key mapping (maybe)
+- try centering of chosen node / use it as a gravity center or so
+- get current song info
+- pausing?

@@ -1,0 +1,9 @@
+---
+name: cliqhop idm
+desc: Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.
+id: cliqhop
+img-file: cliqhop120.png
+img-url: http://somafm.com/img/cliqhop120.png
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8062

@@ -1,0 +1,9 @@
+---
+name: The Trip
+desc: Progressive house / trance. Tip top tunes.
+id: thetrip
+img-file: thetrip120.jpg
+img-url: http://somafm.com/img/thetrip120.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:2504

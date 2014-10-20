@@ -1,0 +1,9 @@
+---
+name: Indie Pop Rocks!
+desc: New and classic favorite indie pop tracks.
+id: indiepop
+img-file: indychick.jpg
+img-url: http://somafm.com/img/indychick.jpg
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:8090

@@ -1,0 +1,9 @@
+---
+name: Groove Salad
+desc: A nicely chilled plate of ambient/downtempo beats and grooves.
+id: groovesalad
+img-file: groovesalad120.png
+img-url: http://somafm.com/img/groovesalad120.png
+sources:
+  mp3:
+  - http://uwstream1.somafm.com:80

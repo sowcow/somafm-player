@@ -1,0 +1,9 @@
+---
+name: Space Station Soma
+desc: Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.
+id: spacestation
+img-file: sss.jpg
+img-url: http://somafm.com/img/sss.jpg
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:8000

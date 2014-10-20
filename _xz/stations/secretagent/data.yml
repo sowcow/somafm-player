@@ -1,0 +1,10 @@
+---
+name: Secret Agent
+desc: The soundtrack for your stylish, mysterious, dangerous life. For Spies and PIs
+  too!
+id: secretagent
+img-file: secretagent120.jpg
+img-url: http://somafm.com/img/secretagent120.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8002

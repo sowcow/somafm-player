@@ -1,0 +1,9 @@
+---
+name: Seven Inch Soul
+desc: NEW! Vintage soul tracks from the original 45 RPM vinyl.
+id: 7soul
+img-file: 7soul120.png
+img-url: http://somafm.com/img/7soul120.png
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:7770

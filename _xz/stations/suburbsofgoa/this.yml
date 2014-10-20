@@ -1,0 +1,9 @@
+---
+name: Suburbs of Goa
+desc: Desi-influenced Asian world beats and beyond.
+id: suburbsofgoa
+img-file: sog120.jpg
+img-url: http://somafm.com/img/sog120.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8850

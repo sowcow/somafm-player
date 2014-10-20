@@ -1,0 +1,9 @@
+---
+name: Beat Blender
+desc: A late night blend of deep-house and downtempo chill.
+id: beatblender
+img-file: blender120.png
+img-url: http://somafm.com/img/blender120.png
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8388

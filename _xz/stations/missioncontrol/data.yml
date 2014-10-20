@@ -1,0 +1,9 @@
+---
+name: Mission Control
+desc: Celebrating NASA and Space Explorers everywhere.
+id: missioncontrol
+img-file: missioncontrol120.jpg
+img-url: http://somafm.com/img/missioncontrol120.jpg
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:2020

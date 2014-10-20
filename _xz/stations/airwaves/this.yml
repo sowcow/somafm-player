@@ -1,0 +1,9 @@
+---
+name: Iceland Airwaves
+desc: Music from bands who will be performing at Iceland Airwaves [explicit]
+id: airwaves
+img-file: airwaves120.png
+img-url: http://somafm.com/img/airwaves120.png
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:5400

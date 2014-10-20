@@ -1,0 +1,9 @@
+---
+name: Digitalis
+desc: Digitally affected analog rock to calm the agitated heart.
+id: digitalis
+img-file: digitalis120.png
+img-url: http://somafm.com/img/digitalis120.png
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8900

@@ -1,0 +1,9 @@
+---
+name: Dub Step Beyond
+desc: Dubstep, Dub and Deep Bass. May damage speakers at high volume.
+id: dubstep
+img-file: dubstep120.png
+img-url: http://somafm.com/img/dubstep120.png
+sources:
+  mp3:
+  - http://uwstream2.somafm.com:8400

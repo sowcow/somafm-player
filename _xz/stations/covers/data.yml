@@ -1,0 +1,9 @@
+---
+name: Covers
+desc: Just covers. Songs you know by artists you don't. We've got you covered.
+id: covers
+img-file: covers120.jpg
+img-url: http://somafm.com/img/covers120.jpg
+sources:
+  mp3:
+  - http://uwstream3.somafm.com:8700

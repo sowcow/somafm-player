@@ -1,0 +1,9 @@
+---
+name: Illinois Street Lounge
+desc: Classic bachelor pad, playful exotica and vintage music of tomorrow.
+id: illstreet
+img-file: illstreet.jpg
+img-url: http://somafm.com/img/illstreet.jpg
+sources:
+  mp3:
+  - http://xstream1.somafm.com:8500

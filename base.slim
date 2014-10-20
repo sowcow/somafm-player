@@ -1,0 +1,18 @@
+doctype 5
+html
+  head
+    meta charset='utf-8'
+    title = title
+    - js_files.each do |src|
+      script src = src
+    style
+      == css
+  body
+    svg
+      defs
+        - patterns.each do |x|
+          pattern id=x.id x="0" y="0" patternUnits=x.units height=x.h1 width=x.w1
+            image x="0" y="0" height=x.h2 width=x.w2 xlink:href="images/#{x.file}"
+
+    script
+      == js
